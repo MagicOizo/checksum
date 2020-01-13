@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "checksum": {
+      "commandName": "Project",
+      "commandLineArgs": "-h sha1"
+    }
+  }
+}
