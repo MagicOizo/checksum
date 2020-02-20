@@ -1,0 +1,23 @@
+\\
+\\ checksum for Windows by Max Zoeller - Version 0.1
+\\
+
+Usage:   checksum.exe <Parameter>
+
+Parameter:
+
+     -d <dir>    --directory <dir>  Hashes all files in the given <dir> with the selected hash algorithm
+
+     -f <file>   --string <file>    Hashes the given <file> with the selected hash algorithm
+                                    Wildcards and relative pathes allowed
+
+     -h <value>  --hash <value>     Sets the hash algorithm (defaults to sha256)
+                                    valid values are: md5, sha1, sha256, sha384, sha512
+
+     -n          --no-header        No output of programm header with output
+
+     -s <input>  --string <input>   Hashes the given <input>-string with the selected hash algorithm
+
+     -v          --version          Prints the full version of this application
+
+     -?          --help             Prints this help message
