@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
+    "net8.0-windows7.0": {
       "Microsoft.CodeAnalysis.FxCopAnalyzers/2.9.6": {
         "type": "package",
         "dependencies": {
@@ -436,7 +436,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0": [
+    "net8.0-windows7.0": [
       "Microsoft.CodeAnalysis.FxCopAnalyzers >= 2.9.6"
     ]
   },
@@ -444,28 +444,28 @@
     "C:\\Users\\m.zoeller\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "0.1.0",
+    "version": "0.2.0",
     "restore": {
-      "projectUniqueName": "C:\\Privat\\C#-Projekte\\checksum-git\\checksum\\checksum\\checksum.csproj",
+      "projectUniqueName": "C:\\Privat\\C#-Projekte\\checksum\\checksum\\checksum.csproj",
       "projectName": "checksum",
-      "projectPath": "C:\\Privat\\C#-Projekte\\checksum-git\\checksum\\checksum\\checksum.csproj",
+      "projectPath": "C:\\Privat\\C#-Projekte\\checksum\\checksum\\checksum.csproj",
       "packagesPath": "C:\\Users\\m.zoeller\\.nuget\\packages\\",
-      "outputPath": "C:\\Privat\\C#-Projekte\\checksum-git\\checksum\\checksum\\obj\\",
+      "outputPath": "C:\\Privat\\C#-Projekte\\checksum\\checksum\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\m.zoeller\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net8.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
           "projectReferences": {}
         }
       },
@@ -481,8 +481,8 @@
       }
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
         "dependencies": {
           "Microsoft.CodeAnalysis.FxCopAnalyzers": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
