@@ -1,0 +1,6 @@
+
+/checksum/bin/Debug
+/checksum/bin/Release
+/.vs
+/checksum/obj/*
+!/checksum/obj/project.assets.json
